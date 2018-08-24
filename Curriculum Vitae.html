@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+ <h1>Curriculum Vitae</h1>
+
+<section>
+<fieldset>
+<legend>Personal Data</legend>
+DUI <input type="text" pattern="[0-9]{1}-[0-9]{1}" >
+First Name: <input type="text">
+Last Name: <input type="text">
+Gender <input type="radio" name="Gender">M <input type="radio" name="Gender">F
+Contact Number: <input type="text" pattern="[0-9]{4}-[0-9]{4}">
+Birthdate: <input type="date">
+Civil Status<select>
+    <option>Single</option>
+    <option>Married</option>
+</select>
+Image<input type="file" >
+</section>
+
+<br>
+<br>
+
+<article>
+    <fieldset>
+    <legend>Work Experience</legend>
+    <textarea rows="10" cols="300">Experience</textarea >
+
+</article>
+
+<br>
+<br>
+
+<article>
+    <fieldset>
+    <legend>Academic Training</legend>
+    <textarea rows="10" cols="300">Academic Training</textarea >
+
+</article>
+
+<br>
+<br>
+
+<section>
+    <fieldset>
+    <legend>Further Training</legend>
+<fieldset>
+        <legend>Programming Languages</legend>
+        <input type="checkbox" name="check[]" checked> Java
+        <input type="checkbox" name="check[]"> C#
+        <input type="checkbox" name="check[]"> Phyton
+        <input type="checkbox" name="check[]"> C++
+        <input type="checkbox" name="check[]"> Ruby
+</fieldset>
+<br>
+<fieldset>
+        <legend>Web Technologies</legend>
+        <input type="checkbox" name="check[]" checked> HTML5
+        <input type="checkbox" name="check[]"> CSS/CSS3
+        <input type="checkbox" name="check[]"> materialize Css
+        <input type="checkbox" name="check[]"> Javascript
+        <input type="checkbox" name="check[]"> Node.js
+        <input type="checkbox" name="check[]"> Spring MVC
+</fieldset>
+
+</fieldset>
+<br>
+<input type="submit" value="Send" > <input type="button" value=Cancel>
+
+</body>
+</html>
